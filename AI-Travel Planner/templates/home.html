@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to TripMind</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css') }}">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to TripMind</h1>
+        <h2>Your Personalized Travel Planner</h2>
+
+        <div class="home-content">
+            <div class="left-side">
+                <img src="{{ url_for('static', filename='images/home.png') }}" alt="Travel Plan">
+            </div>
+
+            <div class="right-side">
+                <div class="intro">
+                    <p>Planning your next trip has never been easier. Let TripMind help you discover the best travel options, attractions, accommodations, and cuisine based on your preferences!</p>
+                </div>
+            </div>
+        </div>
+
+        <a href="/input" class="btn-start">Get Started</a>
+    </div>
+
+</body>
+</html>

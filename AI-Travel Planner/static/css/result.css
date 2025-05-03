@@ -1,0 +1,46 @@
+
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #003366;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #1E90FF;
+    margin-bottom: 15px;
+    font-size: 3rem;
+}
+
+.itinerary {
+    line-height: 1.8;
+    font-size: 1.05rem;
+}
+
+.itinerary strong {
+    color: #1E90FF;
+}
+
+.itinerary p {
+    margin-bottom: 20px;
+}
+
+.itinerary ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+
+

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Luxury Travel Itinerary</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/result.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Your Personalized Travel Plan</h1>
+        <div class="itinerary">
+            {{ travel_plan | safe }}
+        </div>
+
+    </div>
+</body>
+</html>

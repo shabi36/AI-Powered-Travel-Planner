@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #003366;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2.8em;
+    color: #1E90FF;
+    margin: 30px 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 20px 10%;
+    flex-wrap: wrap;
+}
+
+.form-image {
+    width: 35%;
+    min-width: 280px;
+}
+
+.form-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-box {
+    width: 45%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group label {
+    color: #0;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.input-group input,
+.input-group select {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.input-group select[multiple] {
+    height: 100px;
+}
+
+.form-box button {
+    margin-top: 25px;
+    background-color: #1E90FF;
+    color: white;
+    padding: 12px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.cta-text {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #1E90FF;
+    margin: 40px 0 20px 0;
+}

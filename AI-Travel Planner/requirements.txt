@@ -1,0 +1,10 @@
+langchain
+langchain-google-genai
+google-generativeai
+python-dotenv
+langchain-community
+langchain-core
+requests
+flask
+regex
+markdown
