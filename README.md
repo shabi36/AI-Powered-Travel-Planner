@@ -4,13 +4,29 @@ An intelligent web app that creates luxurious, personalized travel itineraries b
 
 ## Problem Statement
 
-Travelers, especially families or those seeking luxury experiences, often struggle to plan customized, experience-rich itineraries. This solution automates the process using AI to save time, enhance personalization, and ensure a seamless travel experience.
+Design an AI assistant that generates end-to-end travel itineraries based on user input such as destination, duration, budget, and interests.The solution should suggest travel options, accommodations, key attractions, and local cuisines or beverages to try.
+
+
 
 ---
 
 ## Why This Problem?
 
-Planning a high-quality, interest-aligned, and season-aware travel plan can be time-consuming and complex — especially for those with specific needs like dietary preferences, weather concerns, or activity-based interests. This project simplifies it with smart automation.
+Lack of Personalization in traditional travel booking platforms.Time-consuming to manually plan itineraries that cater to specific interests, budgets, and dietary needs.Rapid growth in luxury and experience-based travel, yet limited automated tools to curate it effectively.Opportunity to leverage LLMs to deliver intelligent, context-aware travel planning assistance.
+
+
+
+---
+
+## Proposed Solution
+- Flask Web App: Built a Flask-based web application with a user-friendly interface.
+- User Input: Collects data from users via an HTML form (destination, budget, interests, etc.).
+- Backend Processing: Flask app collects user input, processes it with LangChain, and feeds it into the Gemini LLM to generate the itinerary.
+- Prompt Engineering: A custom prompt formats the LLM's output with specific instructions (headings, bullet points, bold text).
+- LLM Response: Gemini 1.5 Pro generates the travel itinerary based on user preferences.
+- Result Rendering: Flask renders the output on a web page with proper formatting using CSS and regex to handle text styles.
+
+
 
 ---
 
