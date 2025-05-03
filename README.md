@@ -1,1 +1,2 @@
 # Gen_AI_Hackathon_2025_Claysys_Technologies
+##TripMind : AI-Powered Travel Planner
