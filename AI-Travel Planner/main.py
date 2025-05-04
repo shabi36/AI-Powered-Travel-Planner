@@ -13,7 +13,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-pro")
 template = """
 You are a smart and professional AI travel assistant.
 
-Generate a luxurious, well-organized, and personalized travel itinerary* based on the following user preferences:
+Generate a well-organized, and personalized travel itinerary based on the following user preferences:
 
 - Destination: {destination}  
 - Duration (in days): {duration}  
