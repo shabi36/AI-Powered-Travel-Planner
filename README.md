@@ -1,6 +1,6 @@
 # AI-Powered Travel Planner
 
-An intelligent web app that creates luxurious, personalized travel itineraries based on user preferences like destination, travel month, budget, dietary needs, and interests — powered by Google's Gemini LLM.
+An intelligent web app that creates personalized travel itineraries based on user preferences like destination, travel month, budget, dietary needs, and interests — powered by Google's Gemini LLM.
 
 ## Problem Statement
 
